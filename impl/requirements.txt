@@ -1,0 +1,11 @@
+numpy==1.24.3
+scipy==1.8.1
+pyowm==3.2.0
+spotipy==2.23.0
+websocket=0.2.1
+
+gevent=22.10.2 
+greenlet=2.0.2 
+websocket=0.2.1 
+zope.event=4.6 
+zope.interface=6.0

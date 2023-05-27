@@ -60,7 +60,7 @@ class SpotifyScreen:
                 spotify_module.decrease_volume()
 
         response = spotify_module.getCurrentPlayback()
-        if response is not None:
+        if response != None:
             (artist,title,art_url,self.is_playing, progress_ms, duration_ms) = response
 
             if (self.current_title != title or self.current_artist != artist):
@@ -103,7 +103,7 @@ class SpotifyScreen:
 
             draw.rectangle((32,0,33,32), fill=(0,0,0))
 
-            if self.current_art_img is not None:
+            if self.current_art_img != None:
                 frame.paste(self.current_art_img, (0,0))
 
             drawPlayPause(draw, self.control_mode, self.is_playing, self.play_color)

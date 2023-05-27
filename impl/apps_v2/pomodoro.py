@@ -60,7 +60,7 @@ class PomodoroScreen:
         #     frame = Image.new("RGB", (self.canvas_width, self.canvas_height), (0,0,0))
         #     draw = ImageDraw.Draw(frame)
 
-        #     if self.time_left is not None:
+        #     if self.time_left != None:
         #         minutes, seconds = divmod(self.time_left.total_seconds(), 60)
         #         time_str = str(int(round(minutes))) + "m " + str(int(round(seconds))) + "s"
         #         draw.text((0,0), time_str, (255,255,255), font=self.font)
